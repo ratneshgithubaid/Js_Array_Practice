@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+    height: 8vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+    .left {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            font-size: 1.5rem;
+        }
+    }
+
+    .right {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+            /* font-family: 'Courier New', Courier, monospace; */
+        }
+    }
+
+
+}
+
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    background-color: lightseagreen;
+}
