@@ -5,6 +5,7 @@ const arr = ["Banana", "Apple", "Shivam", "Nitin"];
 console.log(arr.toString());
 console.log(arr.length);
 
+
 // join()
 console.log(arr.join("*"));
 
